@@ -33,3 +33,5 @@ class RhymersDemo {
 	}
 
 }
+
+//zmiany miały nie być wprowadzane w tym pliku chyba, że napisano inaczej
