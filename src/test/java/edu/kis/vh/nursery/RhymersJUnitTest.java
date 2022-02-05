@@ -76,3 +76,6 @@ public class RhymersJUnitTest {
 	}
 
 }
+
+
+//zmiany miały nie być wprowadzane w tym pliku chyba, że napisano inaczej
