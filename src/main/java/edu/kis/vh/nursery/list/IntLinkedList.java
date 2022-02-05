@@ -3,9 +3,9 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
 
 	private static final int valOfEmptyList = -1;
-	
-	Node lastNode;
-	final int i = 0;
+
+	private Node lastNode;
+	private final int unusedVariable;
 
 	public void push(int i) {
 		if (lastNode == null)

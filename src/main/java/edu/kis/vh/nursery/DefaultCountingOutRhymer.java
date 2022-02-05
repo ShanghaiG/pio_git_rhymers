@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
 	private static final int sizeOfArray = 12;
 
 	final private int[] numbers = new int[sizeOfArray];
-	public int total = indexOfEmptyArray;
+	private int total = indexOfEmptyArray;
 
 	public void countIn(final int in) {
 		if (!isFull())
@@ -36,4 +36,4 @@ public class DefaultCountingOutRhymer {
 
 }
 
-//zmiana nazw metod nie była przewidziana na tym branchu
+// zmiana nazw metod nie była przewidziana na tym branchu
