@@ -2,11 +2,32 @@ package edu.kis.vh.nursery.list;
 
 public class Node {
 
-	public int value;
-	public Node prev, next;
+	private int value;
+	private Node previousNode;
+	private Node nextNode;
 
 	public Node(int i) {
 		value = i;
+	}
+
+	protected int getValue() {
+		return value;
+	}
+
+	protected Node getPreviousNode() {
+		return previousNode;
+	}
+
+	protected void setPreviousNode(Node previousNode) {
+		this.previousNode = previousNode;
+	}
+
+	protected Node getNextNode() {
+		return nextNode;
+	}
+
+	protected void setNextNode(Node nextNode) {
+		this.nextNode = nextNode;
 	}
 
 }
